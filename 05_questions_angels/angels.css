@@ -1,0 +1,47 @@
+/* Put your CSS here. */
+
+h1 {
+    font-family: Georgia ;
+    font-size: 40px ; 
+}
+h2 {
+    font-family: Georgia ;
+    font-size: 20px ;
+    text-transform: uppercase ; 
+    font-weight: 200 ;
+}
+
+h3 {
+    font-family: Verdana ; 
+    font-size: 20px ;
+    text-transform: uppercase ;
+    font-weight: 300 ; 
+    color: #6D6E70 ; 
+}
+.green {
+    font-family: helvetica lt std, sans serif;
+	font-style: light;
+	font-size: 18px;
+	color: #40AD48;
+	letter-spacing: -.75px;
+	line-height: 22px;
+	padding-top: 1px;
+}
+.blue {
+
+	font-family: georgia, serif;
+	font-style: light;
+	font-size: 18px;
+	color: #24408E;
+	letter-spacing: 0.5px;
+	line-height: 22px;
+}
+
+.pink {
+
+	font-family: courier, serif;
+	font-style: light;
+	font-size: 18px;
+	color: #EC008B;
+	line-height: 22px;
+}
