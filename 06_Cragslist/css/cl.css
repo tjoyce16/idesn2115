@@ -655,7 +655,8 @@ color:#00f;border:1px solid #00f}
 white-space:nowrap}
 
 .toc a{
-text-decoration:none}
+text-decoration:none;
+color: darkmagenta}
 
 .toc a:hover{
 text-decoration:underline}
