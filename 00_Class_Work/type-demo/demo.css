@@ -1,0 +1,12 @@
+body{
+    font-family: "pt-sans",sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+a{
+    font-family: "pt-sans",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: maroon;
+    text-decoration: none;
+}
