@@ -25,17 +25,29 @@
     h2 {
         font-size: 2em !important;
     }
-    .kn-details .kn-label-left th, .kn-list .kn-label-left {
-        background: none;
-        border: none;
+    .kn-details .kn-label-left th, .kn-list .kn-label-left th.kn-label {
+        background: transparent;
+        border: transparent;
     }
     .kn-details th, .kn-list th, .kn-map-list th {
-        background: none !important;
+        background: transparent;
         border-bottom: 1px dotted black; 
     }
-/* cant figure this out...HELP*/
-    table {
-        background-color: white !important;
+    a.kn-link-page:hover {
+        background-color: green;
+        color: white !important;
+    }
+    #kn-loading-spinner{
+        visibility: hidden;
+    }
+/*
+    tbody tr.field-128 td.kn-value {
+        border-style: solid;
+        border-color: green;}
+*/
+
+    #view_74 .kn-details-group-column .kn-label-none .kn-value span a {
+        background-color: green;
         
     }
 </style>
