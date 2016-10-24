@@ -1,0 +1,52 @@
+/* yes, this is meant to be empty */
+ul {
+/*    list-style-type: square;*/
+    list-style-image: url(checkmark.gif);
+    list-style-position: inside;
+}
+ol {
+    list-style-type: decimal-leading-zero;
+}
+body {
+    font-family: 'Vollkorn', serif;
+}
+h1, h2 {
+    font-family: 'PT Sans', sans-serif;
+}
+fieldset {
+    border: 1px solid #dcdcdc ;
+    border-radius: 2px ;
+    padding: 2em ;
+}
+legend {
+    background-color: #efefef ;
+    border: 1px solid #dcdcdc ;
+    text-align: left ; 
+    text-transform: uppercase ; 
+}
+input[type="text"], input[type="email"]{
+    border: 1px solid Pink ;
+/*    font-size: .8em ;*/
+    color: #555 ;
+}
+input[type="text"]:hover, input[type="email"]:hover {
+border: 1px solid darkblue ;
+}
+input[type="submit"] {
+    background-color: aquamarine ;
+    color: white ;
+    border-radius: 40px ;
+    margin-top: 4em ; 
+    font-size: 1.2em ;
+    text-transform: uppercase ;
+    font-family: 'PT Sans', sans-serif ;
+    font-weight: 700 ;
+    padding-left: 25px ; 
+    padding-right: 25px ;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    display: inline-block;
+}
+input[type="submit"]:hover {
+    background-color: red ;
+}

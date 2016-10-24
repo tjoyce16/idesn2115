@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Layout 011 | position: static (normal)</title>
+        <style type="text/css">
+
+            body {
+                margin: 0px ;
+            }
+
+            .red {
+                background: red; 
+                position: relative;
+                float: right;
+                
+            }
+
+            .green {
+                background: green;
+                position: static;
+                float: right; 
+/*                left: 300px ;*/
+            }
+
+            .blue {
+                background: blue;
+                position: static;
+                float: right; 
+/*                left: 600px ;*/
+            }
+
+            .orange {
+                background: orange;
+                position: static;
+/*                left: 900px ;*/
+            }
+            .purple {
+                background: purple;
+                position: static;
+                left: 12003px ; 
+            }
+            .shared {
+                width: 150px ;
+                height: 150px;
+                padding: 5px ;
+                color: white;
+                font-family: Helvetica;
+                font-size: 20px ;
+            }
+/*
+            .back, .back a {
+                color: #ccc ;
+                text-decoration: none;
+                font-family: Helvetica;
+                position: fixed;
+                bottom: 20px ;
+                right: 20px;
+                -webkit-transition:color 0.3s ease;
+            }
+            .back a:hover {
+                color: #000;
+                -webkit-transition:color 0.3s ease;
+            }
+*/
+        </style>
+    </head>
+    <body>
+
+        <div class="red shared">1
+        </div>
+        <div class="green shared">2
+        </div>
+        <div class="blue shared">3
+        </div>
+<!--
+        <div class="orange shared">4
+        </div>
+        <div class="purple shared">5
+        </div>
+-->
+
+
+    </body>
+</html>
