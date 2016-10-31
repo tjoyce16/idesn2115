@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Layout demo: clear and z-index</title>
+        <style type="text/css">
+            .red {
+                background: red;
+                float: left ;
+            }
+
+            .green {
+                background: green;
+/*                float: right ;*/
+/*                width: 250px !important ; */
+/*                height: 250px !important ;*/
+            position: relative ;
+                z-index: -5 ;
+                top: 50 ;
+                left: 50 ;
+            }
+
+            .blue {
+                background: blue;
+                clear: left ;
+            }
+
+            .shared {
+                border: 1px solid white ; 
+                width: 150px ;
+                height: 150px;
+                padding: 5px ;
+                color: white;
+                font-family: Helvetica;
+                font-size: 20px ;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="red shared">1 
+        </div>
+        <div class="green shared">2 
+        </div>
+        <div class="blue shared">3 
+        </div>
+
+    </body>
+</html>
