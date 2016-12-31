@@ -7,32 +7,44 @@ body{
 }
 
 h1 {
-    font-family: Georgia ;
-    font-size: 40px ; 
+
+	font-family: georgia, serif;
+	font-size: 30px;
+	line-height: 18px;
 }
+
 h2 {
-    font-family: Georgia ;
-    font-size: 20px ;
-    text-transform: uppercase ; 
-    font-weight: 200 ;
+
+	font-family: georgia, serif;
+	font-size: 18px;
+	font-weight: 100;
+	text-transform: uppercase;
+	line-height: 12px;
+	padding-bottom: 4px;
 }
 
 h3 {
-    font-family: Verdana ; 
-    font-size: 20px ;
-    text-transform: uppercase ;
-    font-weight: 300 ; 
-    color: #6D6E70 ; 
+
+	font-family: verdana, sans serif;
+	font-size: 18px;
+	font-weight:;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: #6D6E70;
+
 }
+
 .green {
-    font-family: helvetica lt std, sans serif;
+
+	font-family: helvetica lt std, sans serif;
 	font-style: light;
 	font-size: 18px;
 	color: #40AD48;
 	letter-spacing: -.75px;
 	line-height: 22px;
 	padding-top: 1px;
-}
+}	
+
 .blue {
 
 	font-family: georgia, serif;
@@ -50,7 +62,4 @@ h3 {
 	font-size: 18px;
 	color: #EC008B;
 	line-height: 22px;
-}
-.green, .blue, .pink{
-    color: black;
 }
